@@ -9,6 +9,7 @@ Installation
 ------------
 
 After buying...
+
 #. Download the plugin by clicking on the Download button on the top right portion of the page.
 
   .. image:: assets/downloading.png
