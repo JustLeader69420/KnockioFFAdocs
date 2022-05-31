@@ -8,9 +8,10 @@ Installation
 
 After buying...
 1. Download the plugin by clicking on the Download button on the top right portion of the page.
-.. image:: assets/1.png
-  :width: 1080
-  :alt: Downloading the plugin
+
+  .. image:: assets/downloading.png
+    :width: 540
+    :alt: Downloading
 
 2. Find your Spigot (or Spigot fork) plugins folder. ("plugins" folder in the main folder of your server) and put the downloaded .jar file in there.
 
