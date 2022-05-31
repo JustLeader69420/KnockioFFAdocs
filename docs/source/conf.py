@@ -51,4 +51,4 @@ html_theme_options = {
     'titles_only': False
 }
 
-html_logo = 'assets/logoWithName.png'
+html_logo = 'assets/logoWithName-horiz200px.png'
