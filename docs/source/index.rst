@@ -1,18 +1,17 @@
-Welcome to Lumache's documentation!
+Welcome to the KnockioFFA plugin documentation!
 ===================================
 
-**KnockioFFA** is paid Minecraft mini-game plugin.
-The only legit way to buy/download it is here:
-https://www.mc-market.org/resources/20068/
-Owner of this plugin is Onionar#2153.
-This plugin is a contribution of the original knockback plugin by CleusGamer201.
+**KnockioFFA** is a paid Minecraft knockbackffa mini-game plugin.
+You can buy it here: https://www.mc-market.org/resources/20068/
+If you are to have any problems and you can't find it here in the documentation, please make a ticket on the plugin's Discord server. (https://discord.gg/HSZ9fABeUS)
+This plugin is a contribution of the original KnockbackFFA plugin by CleusGamer201.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to install the plugin. (:ref:`installation`)
 
 .. note::
 
-   This project is under active development.
+   The documentation is under active development.
 
 Contents
 --------
