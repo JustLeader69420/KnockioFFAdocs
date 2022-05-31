@@ -2,11 +2,11 @@
 
 # -- Project information
 
-project = 'KnockioFFA Documentation'
+project = 'KnockioFFA'
 copyright = '2022, Onionar'
 author = 'JustLeader, Onionar'
 
-release = '0.2'
+release = '1.5'
 version = '0.2.0'
 
 # -- General configuration
