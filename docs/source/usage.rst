@@ -1,3 +1,5 @@
+.. |Discord| replace:: https://discord.gg/HSZ9fABeUS
+
 Usage
 =====
 
@@ -20,6 +22,6 @@ After buying...
 4. Configure the plugin
    1. Open the /plugins/KnockioFFA/ folder and go through the files. Documentation on the files will be available later.
    2. Run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player.
-     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (https://discord.gg/HSZ9fABeUS)
+     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (|Discord|)
 
 5. Done. Enjoy!
