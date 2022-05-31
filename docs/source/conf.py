@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'KnockioFFA'
-copyright = '2022, Onionar'
+copyright = '2022, KnockioFFA'
 author = 'JustLeader, Onionar'
 
 release = '1.5'

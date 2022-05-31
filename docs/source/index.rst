@@ -4,7 +4,7 @@
 Welcome to the KnockioFFA plugin documentation!
 ===================================
 
-**KnockioFFA** is a paid Minecraft knockbackffa mini-game plugin.
+**KnockioFFA** is a paid Minecraft KnockbackFFA mini-game plugin.
 You can buy it here: |ResourceLink|
 
 If you have any problems and you can't find it here in the documentation, please make a ticket on the plugin's Discord server. (|Discord|)
@@ -23,4 +23,5 @@ Contents
 
 .. toctree::
 
-   usage
+   installation
+   configuration
