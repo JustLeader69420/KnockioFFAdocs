@@ -11,8 +11,8 @@ If you have any problems and you can't find it here in the documentation, please
 
 This plugin is a contribution of the original KnockbackFFA plugin by CleusGamer201.
 
-Check out the :doc:`usage` section for further information, including
-how to install the plugin. (:ref:`installation`)
+Check out the contents tree for further information, including
+how to install the plugin. (:doc:`installation`)
 
 .. note::
 

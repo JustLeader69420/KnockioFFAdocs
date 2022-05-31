@@ -16,7 +16,7 @@ After buying...
 3. Reboot your server if running already or start your server.
 
 4. Configure the plugin
-  1. Open the /plugins/KnockioFFA/ folder and go through the files. Documentation on the files will be available later.
+  1. Open the /plugins/KnockioFFA/ folder and go through the files. Documentation on the files can be found at :doc:`configuration`.
   2. Run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player.
     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (|Discord|)
 
