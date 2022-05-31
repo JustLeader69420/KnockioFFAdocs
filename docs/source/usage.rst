@@ -6,29 +6,19 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+After buying...
+1. Download the plugin by clicking on the Download button on the top right portion of the page.
+.. image:: https://i.imgur.com/e8Brx3Y.png
+  :width: 1080
+  :alt: Downloading the plugin
 
-.. code-block:: console
+2. Find your Spigot (or Spigot fork) plugins folder. ("plugins" folder in the main folder of your server) and put the downloaded .jar file in there.
 
-   (.venv) $ pip install lumache
+3. Reboot your server if running already or start your server.
 
-Creating recipes
-----------------
+4. Configure the plugin
+   1. Open the /plugins/KnockioFFA/ folder and go through the files. Documentation on the files will be available later.
+   2. Run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player.
+     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (https://discord.gg/HSZ9fABeUS)
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+5. Done. Enjoy!
