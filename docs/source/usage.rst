@@ -8,7 +8,7 @@ Installation
 
 After buying...
 1. Download the plugin by clicking on the Download button on the top right portion of the page.
-.. image:: https://i.imgur.com/e8Brx3Y.png
+.. image:: assets/1.png
   :width: 1080
   :alt: Downloading the plugin
 
