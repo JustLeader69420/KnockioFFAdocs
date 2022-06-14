@@ -28,7 +28,7 @@ After buying...
   2. Restart the server, you can also run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player for minor changes. The output should be something like this:
 
     .. image:: assets/reloadingThePlugin.png
-      :width: 405
+      :width: 540
       :alt: Reload the plugin
 
     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (|Discord|)
