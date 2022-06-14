@@ -13,10 +13,6 @@ After buying...
 
 2. Find your Spigot (or Spigot fork) plugins folder. ("plugins" folder in the main folder of your server) and put the downloaded .jar file in there.
 
-  .. image:: assets/installation/findingPluginsFolder.png
-    :width: 270
-    :alt: Find the plugins folder
-
   .. image:: assets/installation/uploadingTheJarfile.png
     :width: 405
     :alt: Upload the jarfile (or move it in)
