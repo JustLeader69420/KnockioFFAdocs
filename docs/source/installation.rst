@@ -18,7 +18,7 @@ After buying...
     :alt: Find the plugins folder
 
   .. image:: assets/installation/uploadingTheJarfile.png
-    :width: 540
+    :width: 405
     :alt: Upload the jarfile (or move it in)
 
 3. Reboot your server if running already or start your server.
