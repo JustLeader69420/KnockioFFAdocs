@@ -25,7 +25,12 @@ After buying...
 
 4. Configure the plugin
   1. Open the /plugins/KnockioFFA/ folder and go through the files. Documentation on the files can be found at the :doc:`configuration` page.
-  2. Run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player.
+  2. Restart the server, you can also run "knc reload" in the console or "/knc reload" in the chat when logged in as an opped player for minor changes. The output should be something like this:
+
+    .. image:: assets/reloadingThePlugin.png
+      :width: 405
+      :alt: Reload the plugin
+
     - If you have any problems, restart the server, if the issue persists, make a ticket on the Discord server. (|Discord|)
 
 5. Done. Enjoy!
