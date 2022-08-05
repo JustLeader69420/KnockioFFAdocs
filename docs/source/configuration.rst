@@ -15,7 +15,4 @@ Config.yml
  - Default: 
 
 .. code-block:: TXT
-  Prefix: '&6&lKnockioFFA&7<13> &r'
-
-
-test
+:Default: Prefix: '&6&lKnockioFFA&7<13> &r'
