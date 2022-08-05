@@ -14,8 +14,8 @@ Config.yml
  - Set the prefix seen in plugin messages
  - Default: 
 
-.. code-block:: RST
-  '&6&lKnockioFFA&7<13> &r'
+.. code-block:: YAML
+  Prefix: '&6&lKnockioFFA&7<13> &r'
 
 
 test
