@@ -1,0 +1,89 @@
+# 
+# Made by Onionar#3655, enjoy!
+Prefix: '&6&lKnockio&7<13> &r'
+Separate_Chat: false
+Settings:
+  GiveKitOnBelowHighBound: false
+  HealOnStreak: true
+  BloodOnDamage: true
+  RegenerateBlocks: false
+  GainHealthOnKill: true
+  ShowDeathMessages: true
+  ShowJoinLeaveMessages: true
+  SlimeJumpPads: true
+  BlockCommands: true
+  InGame_Scoreboard: true
+  Elo:
+    Enabled: true
+    Show_Rank_Prefix_In_Chat: true
+    Kill:
+      Min: 10
+      Max: 20
+    Unkown_Death:
+      Min: 1
+      Max: 4
+Game:
+  UseMineSkinForSkins: true
+  NPCSkin: e5cc256c6d7d-46f6b05afad8f539fded
+  MapTimer: 20
+  Events:
+  - ExtraSpeed;&bExtra Speed;300;60
+  - DoubleJump;&aDouble Jump;300;60
+  - ExplosiveArrows;&6Explosive Arrows;800;15
+  - OneTouch;&4One Touch;1200;15
+  - ArrowRain;&cArrow Rain;900
+LobbyItems:
+  PlayItem:
+    slot: 1
+    itemId: paper:0
+    name: '&ePlay &7(Right click)'
+    lore:
+    - '&7'
+    - '&7Right click to play.'
+  SettingsItem:
+    slot: 5
+    itemId: emerald:0
+    name: '&eSettings &7(Right click)'
+    lore:
+    - '&7'
+    - '&7Right click to open settings.'
+  LeaveItem:
+    slot: 9
+    itemId: beacon:0
+    name: '&eLeave &7(Right click)'
+    lore:
+    - '&7'
+    - '&7Right click to leave.'
+Kill-Commands:
+  Enabled: false
+  List:
+  - tell <killer> You killed <player>
+Death-Commands:
+  Enabled: false
+  List:
+  - tell <player> You died
+Streak-Commands:
+  Enabled: false
+  List:
+  - tell <player> You have a streak of <streak>!
+Allowed-Cmds:
+- msg
+- r
+- kick
+- ban
+- tempban
+- ipban
+- mute
+- unmute
+- unban
+- tempmute
+BungeeCord:
+  Enabled: false
+  Return: Hub
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: minecraft
+  Username: root
+  Password: '!&&&*'
+  Port: 3306

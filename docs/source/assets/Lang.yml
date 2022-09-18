@@ -1,0 +1,611 @@
+No_perm: '&cYou dont have permission!'
+Already_in_game: '&cYou are already into the game!'
+Not_in_game: '&cYou not are into the game!'
+Block_OverBound: '&cYou are too high, you cannot place blocks here!'
+PvP_OverBound: '&cYou are too high, you cannot hit players here!'
+Join_game: '&e<player> &7has joined'
+Left_game: '&c<player> &7has left'
+Death: '&e<player> &7Has died.'
+Death_kill: '&e<player> &7Has been killed by &a<killer>&7.'
+Death_proj: '&e<killer> &7has shot &e<player> &7to death.'
+Kill_bar: '&e⚔ You killed <player> ⚔'
+Victim_bar: '&c⚔ <player> killed You ⚔'
+Death_bar: '&c⚔ You have died ⚔'
+Streak_title: '&b<player>'
+Streak_subtitle: '&3¡Has streak of &f<streak>&3!'
+Command_in_game: '&cYou cannot use commands in game to leave use &e/Leave'
+Change_map: '&2The Map has been changed!'
+MapForced_tochange: '&cMap was forced to change by: &f<player>'
+MapPoll_is_active: '&cMap Poll is already active. Vote with /voteyes or /voteno.'
+MapPoll_is_locked: '&cMap Poll has been blocked, you cannot use this command at this
+  moment.'
+MapPoll_started: '&7<player> &2Has started an poll to change the map. Vote with /voteyes
+  or /voteno.'
+MapPoll_approved: '&aThe map change poll of &7<player> &ahas been approved!'
+MapPoll_not_approved: '&cThe map change poll of &7<player> &chas been rejected!'
+MapPoll_noperm: '&cBuy rank in &3store.server.net &cto access to this feature!'
+MapPoll_already_voted: '&cYou have already voted in this poll!'
+MapPoll_vote_registered: '&aYour vote has been registered!'
+MapPoll_not_active: '&cNo map poll active at this moment!'
+Event_on: '&e¡Event Activated!'
+Event_off: '&c¡Event Desactivated!'
+Elo_loss: ' &c-<elo> &6Elo.'
+Elo_win: ' &a+<elo> &6Elo.'
+DeathTitle: '&c&lYOU DIE!'
+DeathSubtitle: '&7Revenge Your Death!'
+Editor_save: '&aInventory saved successfully!'
+Editor_load: '&eInventory loaded successfully!'
+Editor_delete: '&cInventory deleted successfully!'
+PearlItemName: '&2&lPearl'
+StickItemName: '&4&lStick'
+BowItemName: '&5&lBow'
+Bow_cooldown: '&eReloading bow...'
+Bow_recharged: '&6¡Bow Recharged!'
+SpeedItemName: '&6&lSpeed'
+Speed_cooldown: '&eReloading speed...'
+Speed_recharged: '&6¡Speed Recharged!'
+PlateItemName: '&b&lJump Plate'
+Plate_cooldown: '&eReloading jump...'
+Plate_recharged: '&6¡Plate Recharged!'
+NPCHologram:
+- '&e&lSETTINGS &7(RIGHT CLICK)'
+Board:
+  Title: '&f<13>&5&lKnockioFFA&f<14>'
+  Lines:
+  - '&7 <player>'
+  - '&1'
+  - ' &eKills: &f<kills>'
+  - ' &eDeaths: &f<deaths>'
+  - ' &eK/D: &f<kdr>'
+  - ' &eStreak: &f<streak>'
+  - ' &eMax Streak: &f<maxstreak>'
+  - ' &eElo: &f<elo>'
+  - ' &eElo Rank: &f<elorank>'
+  - '&4'
+  - ' &ePlaying: &f<playing>'
+  - ' &eMap: &f<map>'
+  - ' &eNext Map In: &f<timer>'
+  - '&5'
+  - '&6Play.server.net'
+SettingsMenuName: '&7Settings Menu'
+InvItems:
+  Back:
+    Name: '&7Back'
+    Lore:
+    - '&7Click to go back!'
+    Item: ARROW:0
+  Close:
+    Name: '&7Close'
+    Lore:
+    - '&7Click to close menu!'
+    Item: BARRIER:0
+  ChangeMap:
+    Name: '&aRequest Map Change!'
+    Lore:
+    - '&7Click to request!'
+    Slot: 23
+    Item: PAPER:0
+  InventoryEditor:
+    Name: '&aInventory Editor'
+    Slot: 12
+    Item: STICK:0
+    Lore:
+    - '&eClick to customize inventory.'
+  Blocks:
+    Name: '&aBlock Animations'
+    Slot: 14
+    Item: LEAVES:0
+    Lore:
+    - '&eClick to view blocks animation.'
+  Trails:
+    Name: '&aTrail Effects'
+    Slot: 16
+    Item: POTION:0
+    Lore:
+    - '&eClick to view trail effects.'
+  KillEffects:
+    Name: '&aKill Effects'
+    Slot: 22
+    Item: REDSTONE:0
+    Lore:
+    - '&eClick to view killeffects.'
+  KillSounds:
+    Name: '&aKill Sounds'
+    Slot: 24
+    Item: NOTE_BLOCK:0
+    Lore:
+    - '&eClick to view kill sounds.'
+InventoryEditor:
+  Name: '&7Inventory Editor'
+  Save: '&7<13>&aSave Inventory'
+  Load: '&7<13>&6Load Inventory'
+  Delete: '&7<13>&cDelete Inventory'
+Kits:
+  Name: '&7Kits'
+  AlreadySelected: '&6Kit already selected!'
+  Select: '&aKit selected!'
+Blocks:
+  Name: '&7Blocks'
+  AlreadySelected: '&6Block already selected!'
+  NoPerm: '&cBuy rank in &3store.server.net &cto access to this feature!'
+  Select: '&aBlock selected!'
+KillSounds:
+  Name: '&7Kill Sounds'
+  AlreadySelected: '&6KillSound already selected!'
+  NoPerm: '&cBuy rank in &3store.server.net &cto access to this feature!'
+  Select: '&aKillsound selected!'
+  Disabled: '&6KillSound was desactivated!'
+  None:
+    Name: '&c¡No KillSound!'
+    Lore:
+    - '&7'
+    - '&eClick to select!'
+  '1':
+    Name: '&aSuccessful Hit'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '2':
+    Name: '&aCat Hit'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '3':
+    Name: '&aEnderman Death'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '4':
+    Name: '&aEat'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '5':
+    Name: '&aPig Death'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '6':
+    Name: '&aGhast Death'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '7':
+    Name: '&aSkeleton Hurt'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '8':
+    Name: '&aSplash'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '9':
+    Name: '&aBat Death'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '10':
+    Name: '&aNote Bass Drum'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '11':
+    Name: '&aSpider Special'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '12':
+    Name: '&aVillager Hit'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '13':
+    Name: '&aWolf Death'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '14':
+    Name: '&aZombie Idle'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '15':
+    Name: '&aWolf Whine'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '16':
+    Name: '&aSlime Walk'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '17':
+    Name: '&aAmbience Thunder'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '18':
+    Name: '&aWither Shoot'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '19':
+    Name: '&aEnderdragon Wings'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '20':
+    Name: '&aEgg Pop'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  '21':
+    Name: '&aExplode'
+    LoreLocked:
+    - '&7'
+    - '&cKillSound only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+KillEffects:
+  Name: '&7Kill Effects'
+  AlreadySelected: '&6KillEffect already selected!'
+  NoPerm: '&cBuy rank in &3store.server.net &cto access to this killeffect!'
+  Select: '&aKillEffect selected!'
+  NoEffect: '&aYou`re playing without killeffects!'
+  Default:
+    Name: '&aNo Effect!'
+    Lore:
+    - '&7'
+    - '&7Click to select!'
+  Firework:
+    Name: '&aFirework Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Blood:
+    Name: '&aBlood Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Chicken:
+    Name: '&aChicken Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Cookie:
+    Name: '&aCookie Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Creeper:
+    Name: '&aCreeper Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Flowers:
+    Name: '&aFlowers Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Hearts:
+    Name: '&aHearts Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Lightning:
+    Name: '&aLightning Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Piggy:
+    Name: '&aPiggy Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Sheep:
+    Name: '&aSheep Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  SquidRocket:
+    Name: '&aSquidRocket Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Tintes:
+    Name: '&aTintes Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  TNT:
+    Name: '&aTNT Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Zombie:
+    Name: '&aZombie Effect'
+    LoreLocked:
+    - '&7'
+    - '&cKillEffect only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+Trails:
+  Name: '&7Trail Effect'
+  AlreadySelected: '&6Trail already selected!'
+  NoPerm: '&cBuy rank in &3store.server.net &cto access to this trail!'
+  Select: '&aTrail selected!'
+  Default:
+    Name: '&aDefault Trail'
+    Lore:
+    - '&7'
+    - '&7Click to select!'
+  Note:
+    Name: '&aTrail Notes'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Slime:
+    Name: '&aTrail Slime'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Lava:
+    Name: '&aTrail Lava'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Water:
+    Name: '&aTrail Water'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Fireworks:
+    Name: '&aTrail Firework'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Reddust:
+    Name: '&aTrail Reddust'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Portal:
+    Name: '&aTrail Portal'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Flame:
+    Name: '&aTrail Flame'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Heart:
+    Name: '&aTrail Heart'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Enchant:
+    Name: '&aTrail Enchant'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Cloud:
+    Name: '&aTrail Cloud'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Spell:
+    Name: '&aTrail Spell'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Magic:
+    Name: '&aTrail Magic'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Snowball:
+    Name: '&aTrail Snowball'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Snow:
+    Name: '&aTrail Snow'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Footsteps:
+    Name: '&aTrail Footsteps'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Townaura:
+    Name: '&aTrail Townaura'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Happy:
+    Name: '&aTrail Happy'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Angry:
+    Name: '&aTrail Angry'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Smoke:
+    Name: '&aTrail Smoke'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'
+  Splash:
+    Name: '&aTrail Splash'
+    LoreLocked:
+    - '&7'
+    - '&cTrail only for &8[&bMVP&c+&8]'
+    LoreUnlocked:
+    - '&7'
+    - '&eClick to select!'

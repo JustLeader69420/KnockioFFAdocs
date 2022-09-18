@@ -1,0 +1,13 @@
+Ranks:
+  Default:
+    Name: '&8[&6Bronze&8]'
+    Elo: 1000
+  Gold:
+    Name: '&8[&eGold&8]'
+    Elo: 1500
+  Diamond:
+    Name: '&8[&bDiamond&8]'
+    Elo: 2000
+  Emerald:
+    Name: '&8[&aEmerald&8]'
+    Elo: 2500

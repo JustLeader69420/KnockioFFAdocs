@@ -1,0 +1,96 @@
+Animations:
+  default:
+    name: '&cDefault'
+    delay: 1000
+    lore:
+    - '&7'
+    - '&eClick to select!'
+    data:
+    - STAINED_CLAY:0
+    - STAINED_CLAY:2
+    - STAINED_CLAY:5
+    - STAINED_CLAY:4
+    - STAINED_CLAY:1
+    - STAINED_CLAY:14
+  leaves:
+    name: '&aLeaves'
+    delay: 2500
+    lore:
+      locked:
+      - '&7'
+      - '&cBlock only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+      unlocked:
+      - '&7'
+      - '&eClick to select!'
+    data:
+    - LEAVES:0
+    - WOOL:13
+    - WOOL:5
+  mineral:
+    name: '&bMineral'
+    delay: 900
+    lore:
+      locked:
+      - '&7'
+      - '&cBlock only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+      unlocked:
+      - '&7'
+      - '&eClick to select!'
+    data:
+    - COAL_ORE:0
+    - IRON_ORE:0
+    - GOLD_ORE:0
+    - LAPIS_ORE:0
+    - REDSTONE_ORE:0
+    - DIAMOND_ORE:0
+    - EMERALD_ORE:0
+  sponge:
+    name: '&eSponges'
+    delay: 1000
+    lore:
+      locked:
+      - '&7'
+      - '&cBlock only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+      unlocked:
+      - '&7'
+      - '&eClick to select!'
+    data:
+    - SPONGE:0
+    - SPONGE:1
+    - SPONGE:0
+    - SPONGE:1
+    - SPONGE:0
+    - SPONGE:1
+  sandstone:
+    name: '&eFast Sandstone'
+    delay: 200
+    lore:
+      locked:
+      - '&7'
+      - '&cBlock only for &8[&eVIP&8], &8[&aVIP&6+&8] &8[&bMVP&c+&8]'
+      unlocked:
+      - '&7'
+      - '&eClick to select!'
+    data:
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
+    - SANDSTONE:0
+    - RED_SANDSTONE:1
