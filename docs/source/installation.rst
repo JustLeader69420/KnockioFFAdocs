@@ -1,9 +1,10 @@
 .. |Discord| replace:: https://discord.gg/HSZ9fABeUS
+.. _purchasing the plugin: https://builtbybit.com/resources/20068/
 
 Installation
 ------------
 
-After buying...
+After `purchasing the plugin`_...
 
 1. Download the plugin by clicking on the Download button on the top right portion of the page.
 
