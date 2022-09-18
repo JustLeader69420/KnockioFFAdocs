@@ -21,8 +21,12 @@ Find the :ref:`Defaults` at the bottom of the page.
 Defaults
 #####
 
-`BlockAnimations.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/BlockAnimations.yml>`_
-`Config.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/Config.yml>`_
-`EloRanks.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/EloRanks.yml>`_
-`Inventories.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/Inventories.yml>`_
-`Lang.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/Lang.yml>`_
+`v1.5 BlockAnimations.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/1.5/BlockAnimations.yml>`_
+
+`v1.5 Config.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/1.5/Config.yml>`_
+
+`v1.5 EloRanks.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/1.5/EloRanks.yml>`_
+
+`v1.5 Inventories.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/1.5/Inventories.yml>`_
+
+`v1.5 Lang.yml <https://github.com/JustLeader69420/KnockioFFAdocs/raw/main/docs/source/assets/default-files/1.5/Lang.yml>`_
