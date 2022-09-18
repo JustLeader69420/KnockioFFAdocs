@@ -24,4 +24,5 @@ Contents
 .. toctree::
 
    installation
+   files
    configuration
