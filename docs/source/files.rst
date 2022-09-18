@@ -2,8 +2,10 @@ Plugin files
 =====
 
 .. _Config.yml:
+Config.yml
+#####
 
-.. list-table:: Config.yml
+.. list-table::
    :widths: 30 70
    :header-rows: 1
 
@@ -13,6 +15,34 @@ Plugin files
      - The prefix the plugin uses
    * - Separate_Chat
      - False to not separate arena chat and the rest of the server and true to separate.
+
+.. list-table:: Settings
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Setting
+     - Description
+   * - GiveKitOnBelowHighBound
+     - Description pending
+   * - HealOnStreak
+     - Description pending
+   * - BloodOnDamage
+     - Description pending
+   * - RegenerateBlocks
+     - Description pending
+   * - GainHealthOnKill
+     - Description pending
+   * - ShowDeathMessages
+     - Description pending
+   * - ShowJoinLeaveMessages
+     - Whether or not to show join and leave messages
+   * - SlimeJumpPads
+     - Description pending
+   * - BlockCommands
+     - Description pending
+   * - InGame_Scoreboard
+     - Enable or disable the plugin scoreboard
+
 
 Find the :ref:`Defaults` at the bottom of the page.
 
