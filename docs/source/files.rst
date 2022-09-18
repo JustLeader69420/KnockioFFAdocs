@@ -15,4 +15,4 @@ Plugin files
      - False to not separate arena chat and the rest of the server and true to separate.
 
 
-Download the default config here
+Find the default files at the bottom of the page.
