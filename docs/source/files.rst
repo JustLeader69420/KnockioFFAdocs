@@ -29,7 +29,7 @@ Config.yml
    * - BloodOnDamage
      - Description pending
    * - RegenerateBlocks
-     - When on, the blocks will always go back up to 64 if you place them. When disabled, this behavior is disabled and you only have 64 blocks.
+     - When true, building blocks will always go back up to 64 when placed. When false, you only get 64 blocks.
    * - GainHealthOnKill
      - Description pending
    * - ShowDeathMessages
