@@ -29,11 +29,11 @@ Config.yml
    * - BloodOnDamage
      - Description pending
    * - RegenerateBlocks
-     - Description pending
+     - When on, the blocks will always go back up to 64 if you place them. When disabled, this behavior is disabled and you only have 64 blocks.
    * - GainHealthOnKill
      - Description pending
    * - ShowDeathMessages
-     - Description pending
+     - Whether or not to display death messages ;)
    * - ShowJoinLeaveMessages
      - Whether or not to show join and leave messages
    * - SlimeJumpPads
